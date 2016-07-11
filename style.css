@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+}
+
+/* paragraph rule */
+p {
+	color: red;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+}
+
+div p {
+	font-size: 10px;
+	color: teal;
+}
+
+/* links rule */
+a {
+	color: green;
+}
+
+a:visited {
+	color: orange;
+}
+
+/* Example of using a class */
+.orange {
+	color: orange;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.second-link:hover {
+	color: blue;
+	font-family: times;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.button {
+	background-color: #73ddef;
+	width: 100px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 1em;
+	text-align: center;
+}
+
+/* Example of using an ID (always unique, one per page) */
+#blue {
+	color: blue;
+}
+
+#green-text {
+	color: green;
+	background: yellow;
+}
